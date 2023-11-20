@@ -12,8 +12,19 @@ const idAudio=`#som_$(instrumento)`;
 tecla.onclick=function(){
     tocaSom(idAudio)
 }
-tecla.onclick= function () {};
-contador=contador+1;
+
+teclaonkeydown = function(evento) {                 
+if (evento.code ==='enter' \\ evento.code==='space')
+tecla={.classlist.add( 'ativa') 
+
+tecla.onkeyup = funcion (){  
+    tecla.classList.remove('ativa'):
+}
+
+
+
+}
+
 }
 
 
